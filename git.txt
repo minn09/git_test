@@ -1,0 +1,27 @@
+Para antes de guardar
+git reset -> para ver los cambios previos que se pueden hacer
+git chechout -> para volver a los cambios previos
+git diff -> para ver que cambios se han añadido o quitado
+
+desplazamiento en una rama
+git chechkout {hash}
+
+
+
+
+Te encuentras en estado de "CABEZA desprendida". Puede echar un vistazo, hacer cambios
+experimentales y confirmarlos, y puede descartar cualquier confirmación que haga en este
+sin afectar a ninguna rama cambiando de nuevo a una rama.
+
+Si quieres crear una nueva rama para retener los commits que crees, puedes
+hacerlo (ahora o después) usando -c con el comando switch. Ejemplo:
+
+  git switch -c <nombre-de-nueva-rama>
+
+O deshacer esta operación con
+
+  git switch -
+
+Desactiva este consejo estableciendo la variable de configuración advice.detachedHead a false
+
+HEAD está ahora en 4c30317 Create pruebita
