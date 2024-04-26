@@ -1,6 +1,10 @@
-def principal():
-    print("Hola mundo")
-    print("Adios mundo")
 
+def principal():
+    """
+    Función principal que muestra un mensaje en la consola
+
+    """
+    # Mensaje a mostrar
+    print("Hola mundo")
 
 principal()
