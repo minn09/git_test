@@ -7,8 +7,6 @@ desplazamiento en una rama
 git chechkout {hash}
 
 
-
-
 Te encuentras en estado de "CABEZA desprendida". Puede echar un vistazo, hacer cambios
 experimentales y confirmarlos, y puede descartar cualquier confirmación que haga en este
 sin afectar a ninguna rama cambiando de nuevo a una rama.
